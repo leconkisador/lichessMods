@@ -7,6 +7,10 @@
       "activeTab",
       "scripting"
     ],
+    "icons":
+    {
+     "128": "medias/icon.png"
+    },
     "action": {
       "default_popup": "index.html",
       "default_icon": "medias/icon.png"
