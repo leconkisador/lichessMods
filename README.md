@@ -22,7 +22,7 @@ Additionally, users have the flexibility to create their own mods using custom i
 ## Installation
 
 1. **Download the Extension:**
-   - Clone this repository or download the extension from the [Release](https://github.com/your-username/lichessMods/releases) page.
+   - Clone this repository or download the extension from the https://github.com/leconkisador/lichessMods.git page.
 
 2. **Install the Extension:**
    - Follow the installation instructions for your browser:
@@ -45,8 +45,10 @@ Additionally, users have the flexibility to create their own mods using custom i
   - Upload custom images for pieces.
   - Click the CREATE button.
 
-## Contributing
+## Screenshots
 
-Contributions are welcome! If you have ideas for new features, encounter bugs, or want to improve the extension, please open an issue or submit a pull request.
+![image](https://github.com/leconkisador/lichessMods/assets/156597771/867e82db-9aa6-4f86-9563-73de1e66eed4)
+![image](https://github.com/leconkisador/lichessMods/assets/156597771/c54c2db3-9c31-4bec-bb18-c9e56cea702c)
+
 
 
