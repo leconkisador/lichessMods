@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "lichessMod",
+    "description": "3 diferent mods for lichess and the possibility to add a custom one",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "medias/icon.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["script.js"],
+        "matches": [
+          "*://*.lichess.org/*"
+        ]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["popup.js",
+
+        "medias/fruitChess/brocoli.png", "medias/fruitChess/concombre.png", "medias/fruitChess/banane.png", "medias/fruitChess/carottes.png", "medias/fruitChess/orange.png", "medias/fruitChess/pomme.png", "medias/fruitChess/poire.png", "medias/fruitChess/citrouille.png",
+        
+        "medias/humanChess/blackrook.jpg", "medias/humanChess/whiterook.jpg", "medias/humanChess/blackrook.jpg", "medias/humanChess/blackpawn.jpeg", "medias/humanChess/whitepawn.jpg", "medias/humanChess/blackbishop.jpg", "medias/humanChess/whitebishop.jpg", "medias/humanChess/blacknight.jpg", "medias/humanChess/whiteknight.jpg", "medias/humanChess/blacking.jpg", "medias/humanChess/whiteking.webp", "medias/humanChess/blackqueen.jpg", "medias/humanChess/whitequeen.jpg",
+        
+        "medias/greceChess/final/pawn.png", "medias/greceChess/final/rook.png", "medias/greceChess/final/king.png", "medias/greceChess/final/queen.png", "medias/greceChess/final/knight.png", "medias/greceChess/final/bishop.png",
+        
+        "medias/medievalChess/bishop.png", "medias/medievalChess/rook.png", "medias/medievalChess/pawn.png", "medias/medievalChess/queen.png", "medias/medievalChess/king.png", "medias/medievalChess/knight.png"],
+        
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
